@@ -6,7 +6,7 @@ describe '#meal_choice' do
   end
 
   it 'should allow you to set a protein' do
-    expect(meal_choice("broccoli", "macaroni", "tofu")).to eq("A plate of tofu with broccoli and macaroni.")
+    expect(meal_choice("broccoli", "macaroni", "meat")).to eq("A plate of tofu with broccoli and macaroni.")
   end
 
   it 'should puts "What a nutritious meal!" and your order to the console' do
