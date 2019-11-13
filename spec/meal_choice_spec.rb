@@ -14,5 +14,3 @@ describe '#meal_choice' do
     expect($stdout).to receive(:puts).with("A plate of meat with broccoli and macaroni.")
     meal_choice("broccoli", "macaroni")
   end
-end
-c
